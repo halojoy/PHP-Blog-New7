@@ -1,0 +1,110 @@
+/*
+Default style
+*/
+body {
+    margin: 0;
+    padding: 0;
+    background: #bbbbbb;
+    color: #000000;
+}
+a {
+    color: #0000cc;
+}
+a:hover {
+    color: #cc0000;
+    text-decoration: underline;
+}
+p {
+    margin: 6px 0;
+}
+input, textarea {
+    font-family: "Times New Roman";
+    font-size: 17px;
+}
+#container {
+    width: 900px;
+    margin: 10px auto;
+    background: #f7f7f7;
+    font-family: "Times New Roman";
+    font-size: 17px;
+    border: 1px solid black;
+}
+#topbar {
+    padding: 5px 10px;
+    background: #000000;
+    color: #ffffff;
+}
+#topbar #blogtitle  a {
+    font-weight: bold;
+    font-size: 21px;
+    padding-left: 0;
+}
+#topbar a {
+    color: #ffffff;
+    text-decoration: none;
+    padding-left: 15px;
+}
+#topbar a:hover {
+    text-decoration: underline;
+}
+#content {
+
+}
+#footer {
+    text-align: center;
+    font-style: italic;
+    font-size: 14px;
+    background: #000000;
+    color: #ffffff;
+}
+.homelefty {
+    margin: 0;
+    padding: 10px 15px 10px 15px;
+}
+.comlefty {
+    padding: 5px 15px 0px 15px;
+}
+.lefty {
+    margin: 0;
+    padding: 8px 15px 4px 15px;
+}
+.ptitle  {
+    font-weight: bold;
+    font-size: 18px;
+}
+.ptitle  a {
+    text-decoration: none;
+}
+.ptitle a:hover {
+    text-decoration:  underline;
+}
+.pdata {
+    font-style: italic;
+    font-size: 15px;
+    margin-left: 10px;
+}
+.pdata a {
+    text-decoration: none;
+}
+.pbody {
+
+}
+.image {
+    float: left;
+    margin-right: 10px;
+}
+.clearboth {
+    clear: both;
+}
+.bottomline {
+    border-bottom: 1px solid black;
+}
+#pager {
+    padding-left: 15px;
+}
+#pager a {
+    font-weight: bold;
+}
+
+
+
