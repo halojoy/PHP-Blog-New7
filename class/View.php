@@ -182,8 +182,10 @@ class View {
             <br>
             <input name="password" type="password" 
                 placeholder="Password" required>
-            <br>
+            <br><br>
             <input name="submit" type="submit">
+            <input type="button" value="Cancel"
+                onClick="window.location.href='index.php'">
         </form>
         <br>
         </div>
@@ -202,12 +204,14 @@ class View {
             <input name="username" placeholder="Username" required>
             <br>
             <input name="password" type="password" placeholder="Password" required>
-            <br>
+            <br><br>
             <img src="captcha/captchaimg.php">
             <br>
             <?php $valid->captcha_input() ?>
-            <br>
+            <br><br>
             <input name="submit" type="submit">
+            <input type="button" value="Cancel"
+                onClick="window.location.href='index.php'">
         </form>
         <br>
         </div>
@@ -231,8 +235,10 @@ class View {
             <br>
             <input name="newpass2" type="password" 
                 placeholder="New Password Again" required>
-            <br>
+            <br><br>
             <input name="submit" type="submit">
+            <input type="button" value="Cancel"
+                onClick="window.location.href='index.php'">
         </form>
         <br>
         </div>
@@ -254,8 +260,10 @@ class View {
             placeholder="Body" required></textarea>
             <br>
             Image Upload <input name="image" type="file">
-            <br>
+            <br><br>
             <input name="submit" type="submit">
+            <input type="button" value="Cancel"
+                onClick="window.location.href='index.php'">
         </form>
         <br>
         </div>
